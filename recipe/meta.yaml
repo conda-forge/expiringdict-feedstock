@@ -27,7 +27,7 @@ test:
 
 about:
   home: https://github.com/mailgun/expiringdict
-  license: Apache 2
+  license: Apache-2.0
   license_file: LICENSE
   license_family: APACHE
   summary: Dictionary with auto-expiring values for caching purposes
