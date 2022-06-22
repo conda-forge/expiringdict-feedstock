@@ -1,5 +1,5 @@
 {% set name = "expiringdict" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fe2ba427220425c3c8a3d29f6d2e2985bcee323f8bcd4021e68ebefbd90d8250
+  sha256: 300fb92a7e98f15b05cf9a856c1415b3bc4f2e132be07daa326da6414c23ee09
 
 build:
   number: 0
@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
